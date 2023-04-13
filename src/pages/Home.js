@@ -9,7 +9,6 @@ const Home = () => {
 
   const [ exercises, setExercises] = useState([]);
 
-  console.log(exercises)
 
   return (
     <Box>
@@ -23,7 +22,7 @@ const Home = () => {
       <Exercises
         setExercises={setExercises} 
         bodyPart={bodyPart} 
-        setBodyPart={setBodyPart}
+        exercises={exercises}
 
         /> 
 
